@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  webpack5: false,
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(graphql|gql)$/,
