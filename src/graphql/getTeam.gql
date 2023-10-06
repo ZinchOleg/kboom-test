@@ -1,0 +1,12 @@
+query allTeams {
+  allTeams {
+    id
+    name
+    img
+    experience
+    tokens
+    gems
+    level
+    rating
+  }
+}
